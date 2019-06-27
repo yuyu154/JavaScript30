@@ -1,0 +1,26 @@
+body {
+    text-align : center;
+    background :  #F6F6F8;
+}
+ul {
+    margin : 1px;
+    padding : 1px;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+}
+
+ul li {
+    display : inline-block;
+    margin : 0.5rem;
+    padding : 1.5rem 0 0.5rem;
+    background : white;
+    box-shadow : 0 10px 10px #98f542 ;
+    border-radius : 3px;
+    padding-top : 8px;
+}
+
+img {
+    height : 100px;
+    width : 100px;
+}
