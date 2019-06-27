@@ -26,6 +26,10 @@
       misc styles, nothing to do with CSS variables
     */
 
+    html {
+        --base : #ffc600;
+    }
+
     body {
       text-align: center;
       background: #193549;
@@ -33,6 +37,12 @@
       font-family: 'helvetica neue', sans-serif;
       font-weight: 100;
       font-size: 50px;
+    }
+
+    img {
+      padding : var(--spacing);
+      background : var(--base);
+      filter : blur(var(--blur));
     }
 
     .controls {
@@ -44,7 +54,7 @@
     }
   </style>
 
-  <script>
+  <script type="text/javascript" src="image.js">
   </script>
 
 </body>
